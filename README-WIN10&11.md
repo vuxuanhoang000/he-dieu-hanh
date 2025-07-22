@@ -188,8 +188,6 @@ slmgr /ato
 
 ### 6. Tiện ích Microsoft Store
 
-- [RecForth](https://www.microsoft.com/store/productId/9P03BZ82L9F2)
-- [Pichon](https://www.microsoft.com/store/productId/9NK8T1KSHFFR)
 - [Display color picker](https://www.microsoft.com/store/productId/9NLR7FSCC2CD)
 - [Video Trim &amp; Merge](https://www.microsoft.com/store/productId/9PFDGVNPD3ZC)
 
@@ -206,11 +204,23 @@ slmgr /ato
 git config --global user.name "Vu Xuan Hoang"
 git config --global user.email vuxuanhoang000@gmail.com
 ```
+### 8. Lập trình
 
 - [Python (v3.10.10)](https://www.python.org/downloads/release/python-31010/)
 - [NodeJs](https://nodejs.org/en/blog/release)
 
-### 8. SQL
+### 9. SQL
 
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - [XAMPP](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/)
+
+### 10. Tạo Git SSH Keys
+
+- Mở **_Terminal_**
+
+```bash
+ssh-keygen -t ed25519 -C vuxuanhoang000@gmail.com
+```
+
+- Copy **_key_** ở file **`~/.ssh/id_ed25519.pub`** (**_key_** là toàn bộ nội dung của file)
+- Tạo SSH keys ở [Github](https://github.com/settings/keys) và [Gitlab](https://gitlab.com/-/profile/keys) và dán **_key_** đã copy.

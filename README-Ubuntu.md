@@ -64,7 +64,7 @@ sudo snap refresh
 - [Telegram](https://desktop.telegram.org/)
 
 ```bash
-sudo apt install telegram-desktop..
+sudo apt install telegram-desktop
 ```
 
 - [Brave](https://brave.com/linux/)
@@ -279,7 +279,7 @@ sudo usermod -a -G input $USER
 - Mở **_Terminal_**
 
 ```bash
-ssh-keygen -t ed25519 -C "Git SSH Key"
+ssh-keygen -t ed25519 -C vuxuanhoang000@gmail.com
 ```
 
 - Copy **_key_** ở file **`~/.ssh/id_ed25519.pub`** (**_key_** là toàn bộ nội dung của file)
